@@ -13,6 +13,10 @@
     background-color: rgb(24, 24, 24);
 }
 
+input {
+    background-color: rgb(37, 37, 36);
+}
+
 .aba-ctt .tabela {
     color: rgb(247, 227, 202);
     font-weight: 700;
