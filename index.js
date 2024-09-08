@@ -8,9 +8,9 @@ form.addEventListener('submit', function(e) {
     const inputNumeroContato = document.getElementById('numero-contato');
     
     let linha = '<tr>';
-    linha += `<td>${inputNomeContato.value}</td>`;
-    linha += `<td>${inputNumeroContato.value}</td>`;
-    linha = '</tr>';
+    linha += `<td class="nomee" > <img src="./images.png" alt="contato" class="cetete" /> ${inputNomeContato.value}</td>`;
+    linha += `<td >${inputNumeroContato.value}</td>`;
+    linha += '</tr>';
 
     linhas += linha;
 
